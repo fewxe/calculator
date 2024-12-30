@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/types/Member.js'></script>
+    <script src='js/types/Polynomial.js'></script>
+    <script src='js/types/Complex.js'></script>
+    <script src='js/types/Matrix.js'></script>
+    <script src='js/types/Vector.js'></script>
+    <script src='js/calculators/Calculator.js'></script>
+    <script src='js/calculators/RealCalculator.js'></script>
+    <script src='js/calculators/ComplexCalculator.js'></script>
+    <script src='js/calculators/VectorCalculator.js'></script>
+    <script src='js/calculators/MatrixCalculator.js'></script>
+    <script src='js/calculators/PolynomialCalculator.js'></script>
+    <script src='js/main.js'></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="calcarea">
+            <div>
+                <textarea class="inoutput" id="a" cols="40" rows="10"></textarea>
+            </div>
+            <div class="buttons">
+                <button class="operand" data-operand="add">+</button>
+                <button class="operand" data-operand="sub">-</button>
+                <button class="operand" data-operand="mult">*</button>
+                <button class="operand" data-operand="div">/</button>
+                <button class="operand" data-operand="pow">^</button>
+                <button class="operand" data-operand="prod">scal</button>
+                <button id="get-value">get value</button>
+            </div>
+            <div>
+                <textarea class="inoutput" id="b" cols="40" rows="10"></textarea>
+            </div>
+            <p></p>
+            <div>
+                <textarea class="inoutput" id="c" cols="40" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
